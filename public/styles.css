@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    max-height: 600px;
+}
+
+.card {
+    box-shadow: 0 0 10px rgb(255, 52, 221);
+    border-radius: 8px;
+}
+
+#wordData h2 {
+    margin-bottom: 20px;
+}
+
+#wordData ul {
+    list-style: none;
+    padding: 0;
+}
+
+#wordData ul li {
+    margin-bottom: 10px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 24px;
+}
